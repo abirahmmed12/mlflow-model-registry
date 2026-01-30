@@ -3,7 +3,7 @@ import mlflow.sklearn
 from sklearn.ensemble import RandomForestClassifier
 from mlflow.tracking import MlflowClient
 
-# ১. সার্ভার কানেক্ট করা
+
 mlflow.set_tracking_uri("http://localhost:5000")
 client = MlflowClient()
 model_name = "My-Final-Project-Model"
